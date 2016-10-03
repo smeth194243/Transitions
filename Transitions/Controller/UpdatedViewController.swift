@@ -8,7 +8,21 @@
 
 import UIKit
 
-class UpdatedViewController : UIViewController
+class UpdatedViewController1 : UIViewController
 {
     
+    @IBOutlet weak var topImage:
+    UIImageView!
+    
+    @IBOutlet weak var bottomImage:
+    UIImageView!
+    
+    override func viewDidLoad()
+    {
+        //Does the par class version of the method first.
+        super.viewDidLoad()
+        //Then load this classes components.
+        bottomImage.image = UIImage(named: "Race 1.2")
+        
+    }
 }
