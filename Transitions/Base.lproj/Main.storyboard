@@ -17,11 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me: The shortest Autobiography You've Ever Seen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h35-PH-ui9">
+                                <rect key="frame" x="68" y="28" width="464" height="144"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By Seth Morris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ce7-lo-aRW">
+                                <rect key="frame" x="242" y="117" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5C-3L-BRZ">
                                 <rect key="frame" x="125" y="285" width="350" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="Click to change screen wahoo"/>
-                                <state key="normal" title="Click to change the screen wahoo"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Lets Begin."/>
                                 <connections>
+                                    <action selector="changeScreens:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AJE-QD-4eN"/>
                                     <segue destination="GTi-62-ZVE" kind="show" identifier="toUpdatedView" id="GUc-Tf-xJh"/>
                                 </connections>
                             </button>
@@ -33,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="519" y="417"/>
         </scene>
-        <!--Updated View Controller1-->
+        <!--Updated View Controller-->
         <scene sceneID="HMY-U7-64e">
             <objects>
-                <viewController id="GTi-62-ZVE" customClass="UpdatedViewController1" customModule="Transitions" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GTi-62-ZVE" customClass="UpdatedViewController" customModule="Transitions" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eje-IA-6CX"/>
                         <viewControllerLayoutGuide type="bottom" id="49E-Jq-SEj"/>
@@ -45,19 +59,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Race1.1" translatesAutoresizingMaskIntoConstraints="NO" id="BsV-0X-BgM">
-                                <rect key="frame" x="180" y="76" width="240" height="128"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Race1" translatesAutoresizingMaskIntoConstraints="NO" id="GRH-s5-PEe">
-                                <rect key="frame" x="180" y="357" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mountain Biking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgw-Nz-yFq">
+                                <rect key="frame" x="218" y="172" width="164" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="422-vK-jYK">
+                                <rect key="frame" x="51" y="154" width="498" height="292"/>
+                                <string key="text">I have been Mountain Biking ever since I moved to Draper in early 2013. It has gone from being a weekend hobby to an everyday lifestyle for me. I am on the Corner Canyon High School Mountain Bike Team, and we are the largest team in the world with over 150 student riders. Now that school had started, our race season has started as well, so I hope that I can place wel this year. Mountain Biking is my all-time favorite thing to do with my time.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xE6-Df-TDi">
+                                <rect key="frame" x="243" y="411" width="115" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="1" green="0.17475345340000001" blue="0.93961922620000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oto-7c-4MT" kind="show" id="dgC-Mv-uJw"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Race1.1" translatesAutoresizingMaskIntoConstraints="NO" id="q8A-hh-RdA">
+                                <rect key="frame" x="180" y="28" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <outlet property="Race1" destination="q8A-hh-RdA" id="NLU-3c-WBG"/>
+                        </connections>
                     </view>
-                    <connections>
-                        <outlet property="Race_1" destination="GRH-s5-PEe" id="mgE-aK-chG"/>
-                        <outlet property="bottomImage" destination="BsV-0X-BgM" id="ND1-ix-4XG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJJ-hi-Itm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +116,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Race1" width="1087" height="722"/>
         <image name="Race1.1" width="1087" height="722"/>
     </resources>
 </document>
