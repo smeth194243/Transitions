@@ -17,12 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me: The shortest Autobiography You've Ever Seen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h35-PH-ui9">
-                                <rect key="frame" x="68" y="28" width="464" height="144"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By Seth Morris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ce7-lo-aRW">
                                 <rect key="frame" x="242" y="117" width="116" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -39,6 +33,12 @@
                                     <segue destination="GTi-62-ZVE" kind="show" identifier="toUpdatedView" id="GUc-Tf-xJh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me: The shortest Autobiography You've Ever Seen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h35-PH-ui9">
+                                <rect key="frame" x="41" y="28" width="518" height="144"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.41872505553151762" green="1" blue="0.26042574894545778" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -59,9 +59,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mountain Biking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgw-Nz-yFq">
-                                <rect key="frame" x="218" y="172" width="164" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="422-vK-jYK">
+                                <rect key="frame" x="51" y="216" width="498" height="167"/>
+                                <string key="text">I have been Mountain Biking ever since I moved to Draper in early 2013. It has gone from being a weekend hobby to an everyday lifestyle for me. I am on the Corner Canyon High School Mountain Bike Team, and we are the largest team in the world with over 150 student riders. Now that school had started, our race season has started as well, so I hope that I can place wel this year. Mountain Biking is my all-time favorite thing to do with my time.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -78,10 +79,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Race1.1" translatesAutoresizingMaskIntoConstraints="NO" id="q8A-hh-RdA">
                                 <rect key="frame" x="180" y="28" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="422-vK-jYK">
-                                <rect key="frame" x="51" y="154" width="498" height="292"/>
-                                <string key="text">I have been Mountain Biking ever since I moved to Draper in early 2013. It has gone from being a weekend hobby to an everyday lifestyle for me. I am on the Corner Canyon High School Mountain Bike Team, and we are the largest team in the world with over 150 student riders. Now that school had started, our race season has started as well, so I hope that I can place wel this year. Mountain Biking is my all-time favorite thing to do with my time.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mountain Biking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgw-Nz-yFq">
+                                <rect key="frame" x="218" y="173" width="164" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -104,6 +104,20 @@
                     <view key="view" contentMode="scaleToFill" id="Z24-tu-Q3x">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Electronics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbl-X4-Soo">
+                                <rect key="frame" x="249" y="46" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ever since I got my first phone in 2011," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyB-tC-Hn2">
+                                <rect key="frame" x="219" y="205" width="254" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.24042066551924457" blue="0.19925084834785878" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
@@ -163,7 +177,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSe-41-bnc">
                                 <rect key="frame" x="38" y="233" width="524" height="251"/>
                                 <mutableString key="text">Everybody loves one form of music or another but I consider myself a music ENTHUSIAST. I have been playing the piano ever since I was 6 and the drums since I was 13. Recently I have been recording covers of songs on the drums and uploading them to Youtube. The school has a yearly "Battle of the Bands" competition which I participated in last year, and I will this year as well. I have recently began expirimenting with MIDI and music creation using a MIDI controller and my computer, and I hope that I can eventually perform live using it and begin to create song covers/compositions and put them on my Youtube channel as well</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
