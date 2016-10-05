@@ -10,9 +10,6 @@ import UIKit
 class UpdatedViewController : UIViewController
 {
     
-    @IBOutlet weak var Race1:
-    UIImageView!
-    
     override func viewDidLoad()
     {
         //Does the par class version of the method first.

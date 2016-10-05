@@ -50,7 +50,7 @@
         <!--Updated View Controller-->
         <scene sceneID="HMY-U7-64e">
             <objects>
-                <viewController id="GTi-62-ZVE" customClass="UpdatedViewController" customModule="Transitions" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="GTi-62-ZVE" customClass="UpdatedViewController" customModule="Transitions" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eje-IA-6CX"/>
                         <viewControllerLayoutGuide type="bottom" id="49E-Jq-SEj"/>
@@ -87,9 +87,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <connections>
-                            <outlet property="Race1" destination="q8A-hh-RdA" id="NLU-3c-WBG"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJJ-hi-Itm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -97,9 +94,48 @@
             <point key="canvasLocation" x="1266" y="417"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="9Es-cK-dHT">
+            <objects>
+                <viewController modalTransitionStyle="partialCurl" id="ydf-rK-rkP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LCj-cl-BZg"/>
+                        <viewControllerLayoutGuide type="bottom" id="muf-NV-QpE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z24-tu-Q3x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.24042066551924457" blue="0.19925084834785878" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <segue destination="ah2-EA-uNq" kind="show" id="FVP-zf-Sk8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iad-5w-dfI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1266" y="1132"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Pd-ep-c3F">
+            <objects>
+                <viewController id="ah2-EA-uNq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4B8-NC-Mg1"/>
+                        <viewControllerLayoutGuide type="bottom" id="HDw-cb-DGF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oQz-3a-V2z">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.97735074730045335" green="1" blue="0.29791746590656454" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t2E-nn-O8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="519" y="1849"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="aou-Rq-u8A">
             <objects>
-                <viewController id="oto-7c-4MT" customClass="ViewController" customModule="Transitions" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="oto-7c-4MT" customClass="ViewController" customModule="Transitions" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sp2-az-Bem"/>
                         <viewControllerLayoutGuide type="bottom" id="PYG-8r-41Y"/>
@@ -107,12 +143,36 @@
                     <view key="view" contentMode="scaleToFill" id="kkQ-Xx-xGf">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3Q-EN-MJS">
+                                <rect key="frame" x="236" y="492" width="128" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="0.4187250555" green="1" blue="0.26042574889999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIb-ao-447">
+                                <rect key="frame" x="273" y="63" width="55" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSe-41-bnc">
+                                <rect key="frame" x="273" y="246" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.1747534533737346" blue="0.93961922616573956" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="ydf-rK-rkP" kind="show" id="tah-mZ-H5V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5IF-pf-iNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="706" y="1082"/>
+            <point key="canvasLocation" x="519" y="1132"/>
         </scene>
     </scenes>
     <resources>
