@@ -193,6 +193,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEF-hu-bGg">
                                 <rect key="frame" x="269" y="310" width="46" height="30"/>
                                 <state key="normal" title="Finish"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="pZi-ht-tQv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97735074730045335" green="1" blue="0.29791746590656454" alpha="1" colorSpace="calibratedRGB"/>
@@ -203,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t2E-nn-O8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="519" y="1849"/>
+            <point key="canvasLocation" x="526" y="1909"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aou-Rq-u8A">
@@ -266,7 +269,8 @@
         <image name="Race1.1" width="1087" height="722"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tah-mZ-H5V"/>
+        <segue reference="pZi-ht-tQv"/>
         <segue reference="Pvq-ik-Jd4"/>
+        <segue reference="tah-mZ-H5V"/>
     </inferredMetricsTieBreakers>
 </document>
