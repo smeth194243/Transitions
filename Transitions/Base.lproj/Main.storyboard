@@ -73,7 +73,7 @@
                                     <color key="titleColor" red="1" green="0.17475345340000001" blue="0.93961922620000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oto-7c-4MT" kind="show" id="dgC-Mv-uJw"/>
+                                    <segue destination="oto-7c-4MT" kind="show" id="7KG-YH-tuw"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Race1.1" translatesAutoresizingMaskIntoConstraints="NO" id="q8A-hh-RdA">
@@ -111,12 +111,49 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ever since I got my first phone in 2011," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyB-tC-Hn2">
-                                <rect key="frame" x="219" y="205" width="254" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyB-tC-Hn2">
+                                <rect key="frame" x="64" y="388" width="472" height="118"/>
+                                <string key="text">Ever since I got my first phone in 2011, I've been obsessed with technology and how things work. I feel like I want to continue down this path for my career, because technology is a fun thing to work with.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="New" translatesAutoresizingMaskIntoConstraints="NO" id="g2M-b3-hNe">
+                                <rect key="frame" x="331" y="85" width="249" height="165"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Old" translatesAutoresizingMaskIntoConstraints="NO" id="4TU-Ul-E5O">
+                                <rect key="frame" x="20" y="85" width="190" height="165"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First phone           &lt;--                   Current phone         --&gt;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goI-K5-68H">
+                                <rect key="frame" x="211" y="85" width="121" height="165"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtG-ms-Iaw">
+                                <rect key="frame" x="20" y="253" width="215" height="146"/>
+                                <string key="text">Motorola Cliq:               -256MB RAM                      -256MB Storage               -5MP Camera                        -OS: Android 1.5(Cupcake) -3.1 Inch Display(480p)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCE-D2-Pt0">
+                                <rect key="frame" x="331" y="258" width="249" height="122"/>
+                                <string key="text">Motorola X Pure Edition:        -3GB RAM                             -32GB Storage                    -21MP Camera                              -OS: Android 6.0 (Marshmallow)                    -5.7 Inch Display(1440p)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgM-VO-zn1">
+                                <rect key="frame" x="170" y="514" width="260" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="You are almost done, I promise.">
+                                    <color key="titleColor" red="0.4187250555" green="1" blue="0.26042574889999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ah2-EA-uNq" kind="show" id="Pvq-ik-Jd4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.24042066551924457" blue="0.19925084834785878" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -139,8 +176,30 @@
                     <view key="view" contentMode="scaleToFill" id="oQz-3a-V2z">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Misc." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bX0-qV-YFz">
+                                <rect key="frame" x="269" y="63" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVF-5d-1dZ">
+                                <rect key="frame" x="198" y="98" width="204" height="174"/>
+                                <string key="text">Favorite Food: Spaghetti     Favorite Subject: Math        Favorite Color: Blue            Favorite Band: T-O-P          Favorite Candy: Milkyway   Favorite Movie: Civil War</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEF-hu-bGg">
+                                <rect key="frame" x="269" y="310" width="46" height="30"/>
+                                <state key="normal" title="Finish"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.97735074730045335" green="1" blue="0.29791746590656454" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="IsS-Jr-DXr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t2E-nn-O8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -176,7 +235,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSe-41-bnc">
                                 <rect key="frame" x="38" y="233" width="524" height="251"/>
-                                <mutableString key="text">Everybody loves one form of music or another but I consider myself a music ENTHUSIAST. I have been playing the piano ever since I was 6 and the drums since I was 13. Recently I have been recording covers of songs on the drums and uploading them to Youtube. The school has a yearly "Battle of the Bands" competition which I participated in last year, and I will this year as well. I have recently began expirimenting with MIDI and music creation using a MIDI controller and my computer, and I hope that I can eventually perform live using it and begin to create song covers/compositions and put them on my Youtube channel as well</mutableString>
+                                <string key="text">Everybody loves one form of music or another but I consider myself a music ENTHUSIAST. I have been playing the piano ever since I was 6 and the drums since I was 13. Recently I have been recording covers of songs on the drums and uploading them to Youtube. The school has a yearly "Battle of the Bands" competition which I participated in last year, and I will this year as well. I have recently began expirimenting with MIDI and music creation using a MIDI controller and my computer, and I hope that I can eventually perform live using it and begin to create song covers/compositions and put them on my Youtube channel as well</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -202,9 +261,12 @@
     <resources>
         <image name="Drummin" width="640" height="960"/>
         <image name="IMG_20150923_075304953" width="480" height="640"/>
+        <image name="New" width="1600" height="1200"/>
+        <image name="Old" width="400" height="363"/>
         <image name="Race1.1" width="1087" height="722"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="tah-mZ-H5V"/>
+        <segue reference="Pvq-ik-Jd4"/>
     </inferredMetricsTieBreakers>
 </document>
